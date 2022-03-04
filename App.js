@@ -248,7 +248,7 @@ export default class App {
     // set total pages
     this.pageTotal = pageTotal;
 
-    this.prevPage();
+    this.updatePaginationUI();
   }
 }
 
