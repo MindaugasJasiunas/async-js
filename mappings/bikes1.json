@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "/bikes?page=1&size=8",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"uuid\": \"f7872bc8-f289-4f96-a977-a45a4b62cdfc\",\"title\": \"Minimal White\",\"price\": \"444.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1508034689382-e34a2bdffa01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"142239cd-144f-4bba-a20e-6a7406cfa2c3\",\"title\": \"Peugeot Race\",\"price\": \"440.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1513635739438-238fbb33ba8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1456&q=80\"},{\"uuid\": \"452b36c5-b7f7-40bc-9978-968b1f0f99ce\",\"title\": \"Stealthy Bull\",\"price\": \"490.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"fcb35c2a-b388-4e2c-8221-1b50ee0410c8\",\"title\": \"Black Pearl\",\"price\": \"699.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1549619177-297bd1a161b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80\"},{\"uuid\": \"9819cc44-ec91-44a6-a5dc-de9e036d3c5f\",\"title\": \"District\",\"price\": \"599.00\",\"oldPrice\": \"699.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"5c09c60c-e8a3-412d-bd5e-835b91b8b8fc\",\"title\": \"Tokyo Bike\",\"price\": \"877.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1505705694340-019e1e335916?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80\"},{\"uuid\": \"fc58c6bc-9944-4eeb-b16b-82ca345e331c\",\"title\": \"City Driver\",\"price\": \"180.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1566663589567-6a44aef25c52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80\"},{\"uuid\": \"cdcacade-3445-46ad-9fe8-682adfe2a8d6\",\"title\": \"Minty SKU\",\"price\": \"386.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1502123909989-c9d05c43046a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1333&q=80\"}]",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

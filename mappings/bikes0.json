@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "/bikes?page=0&size=8",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"uuid\": \"1489ce50-258f-4c84-824e-5ebe8916a9dc\",\"title\": \"Blue Lagoon\",\"price\": \"480.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1616963248328-6b7bea589840?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80\"},{\"uuid\": \"6c1a9fc2-68a0-4f76-bd03-bb6262c2094a\",\"title\": \"Groovy Wheels\",\"price\": \"980.00\",\"oldPrice\": \"1200.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1553779179-975b59f69a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"2e09e9d0-b678-4e38-a676-649847048f9b\",\"title\": \"Peugeot\",\"price\": \"499.00\",\"oldPrice\": \"699.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"640e8296-875d-4b90-9655-2e6223ebfb83\",\"title\": \"Vintage Comet\",\"price\": \"384.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1625044333283-23ae456b7d60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80\"},{\"uuid\": \"20aca426-1cad-4255-9f05-3c0536c15d9d\",\"title\": \"Titan Glory\",\"price\": \"1800.00\",\"oldPrice\": \"2700.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1559225549-532a2e59a52c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80\"},{\"uuid\": \"49b23a3b-75c4-4adc-8cca-629de1b8598b\",\"title\": \"French Wood\",\"price\": \"420.00\",\"oldPrice\": \"620.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1577106901574-4629d3108efc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80\"},{\"uuid\": \"b640e2a1-9d90-46f9-9558-0a749c376ac1\",\"title\": \"Red Mustang\",\"price\": \"380.00\",\"oldPrice\": \"415.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1552229812-3fd9df36c4b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80\"},{\"uuid\": \"35e7eab8-98ff-4b93-8e35-34fd16db997f\",\"title\": \"Pearson Special\",\"price\": \"344.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1592419044706-39796d40f98c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1425&q=80\"}]",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

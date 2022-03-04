@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "/bikes?page=2&size=8",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"uuid\": \"31aeb611-61a7-4164-9981-be222b12f928\",\"title\": \"Start Socce\",\"price\": \"200.00\",\"oldPrice\": \"346.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1571075180369-888125e0bc84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1462&q=80\"},{\"uuid\": \"3558a1f5-6af1-4923-a052-1ccc45c74c00\",\"title\": \"Vintage White\",\"price\": \"320.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1603399301857-4871de8d64d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80\"},{\"uuid\": \"484c7d55-b13b-48ca-8f46-9dd8d060e6e8\",\"title\": \"Tsunami\",\"price\": \"500.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1596647528339-7aa320d3c9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"484c7d55-b13b-48ca-8f46-9dd8d060e6e8\",\"title\": \"Green Pearson\",\"price\": \"699.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1531608139434-1912ae0713cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80\"},{\"uuid\": \"991c15a1-2466-478e-a65d-1a7714981559\",\"title\": \"Vintage Lady\",\"price\": \"188.00\",\"oldPrice\": \"260.00\",\"imgUrl\": \"https://images.unsplash.com/photo-1560799486-f4b726357fcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80\"},{\"uuid\": \"2e09e9d0-b678-4e38-a676-649847048f9b\",\"title\": \"Pure Fix Beater\",\"price\": \"460.00\",\"oldPrice\": \"null\",\"imgUrl\": \"https://images.unsplash.com/photo-1508772382388-0b8fc7f7edb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80\"}]",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "/shopinfo",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"badge\":\"[Bike Shop]\",\"title\":\"Bike Shop\",\"titleImage\":\"https://images.unsplash.com/photo-1501147830916-ce44a6359892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80\",\"description\":\"Bicycles, jerseys, helmets and accessories. 35000 products from 400 brands ✓ More than 3 300 bikes ✓ Free returns ✓ Buy now!\",\"copyright\":\"Copyright © Bike Shop\"}",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

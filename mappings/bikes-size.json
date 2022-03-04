@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "/bikes/size",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"size\":\"22\"}",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
