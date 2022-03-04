@@ -1,0 +1,16 @@
+#header {
+  background-color: #343a40;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+#shop-description {
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+#pagination {
+  display: none;
+}
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
