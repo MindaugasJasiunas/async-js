@@ -8,17 +8,11 @@ Dynamically loading web page using Javascript language, Fetch API and ES6 featur
 
 ## Run project
 
-To run the project you need to use [live-server](https://www.npmjs.com/package/live-server). In projects folder unix command line:
-
-```bash
-live-server
-```
-
-## Backend (JSON data)
-
-Web server and JSON responses is mocked using standalone [WireMock](https://wiremock.org/).
+To run the project first you need to start mocked web server with WireMock, second you need to start web page using Live Server.
 
 ### Mocking web server responses using Wiremock
+
+Web server and REST API as JSON responses is mocked using standalone [WireMock](https://wiremock.org/).
 
 To run mocked web server -  
 download [standalone WireMock JAR file](https://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-jre8-standalone/), copy it to the project's folder and start. In unix command line:
@@ -33,10 +27,19 @@ To test if WireMock is properly running - use [Postman](https://www.postman.com/
 curl http://localhost:8080/shopinfo
 ```
 
-## Frontend
+### Run web page using live-server
+
+To run the project with live-server, we need to download [live-server](https://www.npmjs.com/package/live-server) using NPM or use it as [plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in Visual Studio Code editor.
+In projects folder unix command line:
+
+```bash
+live-server
+```
+
+## Web page
 
 Web page view was created by modifying free Bootstrap template ["Shop Homepage"](https://startbootstrap.com/template/shop-homepage).
 
-## Other
+## Images
 
 Royalty free images by [Unsplash](https://unsplash.com).
