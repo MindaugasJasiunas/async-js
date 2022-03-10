@@ -38,7 +38,7 @@ live-server
 
 ## Web page
 
-Web page view was created by modifying free Bootstrap template ["Shop Homepage"](https://startbootstrap.com/template/shop-homepage).
+Web page view was created using Grid & Flexbox layouts & pure CSS.
 
 ## Images
 

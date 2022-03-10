@@ -4,13 +4,60 @@
   background-size: cover;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
+#shop-title {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
 #shop-description {
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 #pagination {
   display: none;
+  grid-area: pagination;
+  /* display: flex; */
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .card-img-top {
   height: 150px;
   object-fit: cover;
+}
+.cart-link {
+  margin-left: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.badge {
+  color: white;
+  background-color: rgb(33, 37, 41);
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+.d-flex {
+  display: flex;
 }
