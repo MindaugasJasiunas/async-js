@@ -39,7 +39,7 @@ export default class App {
       this.loadPageInfo(array[0].value);
     }
     if (array[1].status === 'rejected') {
-      showFetchErrorContainer();
+      this.showFetchErrorContainer();
     } else {
       // load items
       this.loadItems(array[1].value);
@@ -75,7 +75,7 @@ export default class App {
     this.data
       .fetchItems(this.currentPage)
       .then(jsonData => this.loadItems(jsonData))
-      .catch(err => showFetchErrorContainer());
+      .catch(err => this.showFetchErrorContainer());
   }
 
   nextPage(event) {
@@ -125,7 +125,10 @@ export default class App {
       saleDiv.classList.add('bg-dark');
       saleDiv.classList.add('text-white');
       saleDiv.classList.add('position-absolute');
-      saleDiv.style = 'top: 0.5rem; right: 0.5rem';
+      // saleDiv.style = 'top: 0.5rem; right: 0.5rem';
+      // saleDiv.style.position = 'absolute';
+      // saleDiv.style.top = '8px';
+      // saleDiv.style.right = '16px';
       saleDiv.textContent = 'Sale';
     }
     saleDiv && cardDiv.appendChild(saleDiv);
@@ -221,8 +224,8 @@ export default class App {
         oldPrice,
         jsonItem.imgUrl
       );
-      if (tempItem.oldPrice) this.newItem(tempItem, 0, true);
-      else this.newItem(tempItem, 0, false);
+      if (tempItem.oldPrice) this.newItem(tempItem, jsonItem.stars, true);
+      else this.newItem(tempItem, jsonItem.stars, false);
     });
   }
 
@@ -244,12 +247,11 @@ export default class App {
   loadPagination(pageTotal) {
     const pagination = document.getElementById('pagination');
     // change span how many pages & current page
-    pagination.style.display = 'block';
+    pagination.style.display = 'flex';
+
     // set total pages
     this.pageTotal = pageTotal;
 
     this.updatePaginationUI();
   }
 }
-
-new App();
